@@ -1,10 +1,12 @@
 <template>
   <div class="app">
+    <h1>Twitter Clone</h1>
+    
     <!-- Render tweets directly without using reactive data -->
-    <Tweet
-      v-for="(tweet, index) in tweetsData"
-      :key="index"
-      :tweet="tweet"
+    <Tweet 
+      v-for="(tweet, index) in tweetsData" 
+      :key="index" 
+      :tweet="tweet" 
     />
   </div>
 </template>
